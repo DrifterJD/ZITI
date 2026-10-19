@@ -1,0 +1,19 @@
+{
+  "name": "dsh-tavern-font-control",
+  "version": "1.1.0",
+  "private": true,
+  "description": "在酒馆设置里自由调整正文字号、行间距与字间距，不设上下限。",
+  "type": "module",
+  "exports": {
+    ".": "./index.mjs",
+    "./client": "./client.js"
+  },
+  "main": "./index.mjs",
+  "keywords": ["dsh", "dsh-tavern", "font-size", "line-height", "plugin"],
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": ["dsh-tavern-plugin"]
+    }
+  }
+}
